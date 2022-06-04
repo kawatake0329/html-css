@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  width: 960px;
+  margin: 0 auto;
+}
+
+.list {
+  padding-top: 50px;
+  margin: 0 auto;
+  list-style: none;
+}
+
+.list-item {
+  padding: 20px 0 20px 20px;
+}
+
+.list-item:nth-child(odd) {
+  background-color: rgba(0,0,0,0.2);
+}
+
+.box-list {
+  padding: 50px ;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px 5%;
+}
+
+.box {
+  width: 30%;
+  height: 200px;
+  background-color: yellow;
+}
+
+.box:nth-child(1),.box:nth-child(5),.box:nth-child(9) {
+  background-color: orange;
+}
